@@ -17,9 +17,7 @@ class Conference {
     @Id
     @Column(updatable = false)
     var id: Long? = null
-    @NotBlank(message="Campo obligatorio")
     var title: String? = null
-    @NotNull(message="Campo obligatorio")
     var description: String? = null
     var assistants: Double? = null
 }

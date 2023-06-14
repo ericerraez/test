@@ -18,9 +18,7 @@ class Assistant {
     var id: Long? = null
     @Column(name= "conference_id")
     var conferenceId: Long? = null
-    @NotBlank(message="Campo obligatorio")
     var fullname: String? = null
-    @NotBlank(message="Campo obligatorio")
     var roles: String? = null
     var age: Int? = null
 }
